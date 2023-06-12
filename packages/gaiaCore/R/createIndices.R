@@ -14,7 +14,7 @@
 
 createIndices  <-  function(connectionDetails) {
   dataSourceTable <- getDataSourceTable(connectionDetails = connectionDetails)
-  uuids <- dataSourceTable$data_source_uuid
+  uuids <- dataSourceTable$DATA_SOURCE_UUID
   geomIndexTable <- getGeomIndexTable(connectionDetails = connectionDetails)
   attrIndexTable <- getAttrIndexTable(connectionDetails = connectionDetails)
 
